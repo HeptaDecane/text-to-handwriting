@@ -8,10 +8,10 @@ This project uses pretrained model and some implementation based on the paper fr
 
 ## Install and Use
 * Download zip or clone this repo and cd into the repo folder
-* Install dependencies : `pip install -r requirements.txt` OR `pip3 install -r requirements.txt`
+* Install dependencies : `pip3 install -r requirements.txt`
 * **Run and Use :**
-   * `python handwrite.py --text "Some text with minimum 50 characters" <optional arguments>`
-   * `python handwrite.py --text-file /path/to/input/text.file <optional arguments>`
+   * `python3 handwrite.py --text "Some text with minimum 50 characters" <optional arguments>`
+   * `python3 handwrite.py --text-file /path/to/input/text.file <optional arguments>`
 * Optional Arguments :
     * `--style` : Style of handwriting (0 to 7, defaults to 0)
     * `--bias` : Bias in handwriting. More bias is more unclear handwriting (0.00 to 1.00 , defaults to 0.9)
