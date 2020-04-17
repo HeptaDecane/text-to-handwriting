@@ -56,7 +56,7 @@ def main():
         saver = tf.train.import_meta_graph(args.model_path + '.meta')
         saver.restore(sess, args.model_path)
 
-        print("\n\nInitialization Complete!\n\n\n\n")
+        print("\n\nInitialization Complete!\n\n\n")
 
         color = [int(i) for i in args.color_text.replace(' ', '').split(',')]
         pdf = generate.generate(text.replace('1', 'I'), args, sess, translation, color[:3])
