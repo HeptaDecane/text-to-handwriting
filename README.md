@@ -14,7 +14,7 @@ This project uses pretrained model and some implementation based on the paper fr
    * `python3 handwrite.py --text-file /path/to/input/text.file <optional arguments>`
 * Optional Arguments :
     * `--style` : Style of handwriting (0 to 7, defaults to 0)
-    * `--bias` : Bias in handwriting. More bias is more unclear handwriting (0.00 to 1.00 , defaults to 0.9)
+    * `--bias` : With higher bias generated handwriting is more clear so to speak (read paper for more info) (0.00 to 1.00 , defaults to 0.9)
     * `--color` : Color of handwriting in RGB format ,defaults to 0,0,150 (ballpen blue)
     * `--output` : Path to output pdf file (E.g. ~/assignments/ads1.pdf), defaults to ./handwritten.pdf
     * For more information on usage, run `python handwrite.py -h`
